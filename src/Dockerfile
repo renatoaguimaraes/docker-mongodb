@@ -1,8 +1,6 @@
 FROM centos:7
 
-MAINTAINER "renato.guimaraes" renato.guimaraes@forncedores.local
-
-ENV http_proxy http://10.210.80.200:8080
+MAINTAINER "renato.guimaraes" renatoaguimaraes@gmail.com
 
 ADD mongodb.repo /etc/yum.repos.d/
  
